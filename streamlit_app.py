@@ -19,8 +19,6 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 # Display the table on the page.
 streamlit.dataframe(fruits_to_show)
 
-streamlit.write('The user entered ', fruit_choice)
-
 # Section to disply Fruityvice API response.
 
 streamlit.header("Fruityvice Fruit Advice!")
